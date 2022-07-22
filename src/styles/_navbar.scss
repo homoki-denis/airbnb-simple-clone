@@ -1,0 +1,14 @@
+.navbar {
+  background: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  min-height: 8vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    width: 80px;
+    height: 25px;
+    margin: 0 3rem;
+  }
+}

@@ -1,0 +1,15 @@
+@import "./styles/navbar";
+@import "./styles/main";
+@import "./styles/cards";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 1rem;
+}

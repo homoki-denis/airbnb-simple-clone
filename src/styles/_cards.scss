@@ -1,0 +1,39 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  white-space: nowrap;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.card-container {
+  margin: 1rem 0;
+}
+
+.card {
+  max-width: 240px;
+
+  .card-img {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+  }
+  .card-section {
+    margin: 0.4rem 0;
+    img {
+      width: 14px;
+    }
+    .card-title {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.bolder {
+  font-weight: bold;
+}
