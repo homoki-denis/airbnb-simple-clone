@@ -24,6 +24,8 @@
   }
   .card-section {
     margin: 0.4rem 0;
+    overflow: hidden;
+
     img {
       width: 14px;
     }
@@ -36,4 +38,23 @@
 
 .bolder {
   font-weight: bold;
+}
+
+.card-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+span {
+  text-overflow: ellipsis;
+}
+
+.social-links {
+  margin: 0.3rem 0;
+  i {
+    padding-right: 0.3rem;
+  }
+  a {
+    color: #ff6f74;
+  }
 }
